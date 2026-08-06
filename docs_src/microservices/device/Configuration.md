@@ -49,8 +49,7 @@ Please refer to the general [Common Configuration documentation](../configuratio
 |---|---|---|
 |||Properties that determine how the device service communicates with a device|
 |DataTransform|true|Controls whether transformations are applied to numeric readings|
-|MaxCmdOps|128|Maximum number of resources in a device command (hence, readings in an event)|
-|MaxCmdResultLen|256|Maximum JSON string length for command results|
+|MaxCmdOps|12800|Maximum number of resources in a device command (hence, readings in an event)|
 |ProfilesDir|'./res/profiles'|If set, directory or index URI containing profile definition files to upload to core-metadata. See [URI for Device Service Files](#uris-for-device-service-files) for more information on URI index files. Also may be in device service private config, so it can be overridden with environment variable|
 |DevicesDir|'./res/devices'|If set, directory or index URI containing device definition files to upload to core-metadata. See [URI for Device Service Files](#uris-for-device-service-files) for more information on URI index files. Also may be in device service private config, so it can be overridden with environment variable|
 |ProvisionWatchersDir|''|If set, directory or index URI containing provision watcher definition files to upload to core-metadata (service specific when needed). See [URI for Device Service Files](#uris-for-device-service-files) for more information on URI index files.|

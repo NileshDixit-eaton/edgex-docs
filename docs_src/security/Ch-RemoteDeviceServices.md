@@ -441,8 +441,7 @@ $ curl -s http://127.0.0.1:59900/api/{{api_version}}/config | jq
     },
     "Device": {
       "DataTransform": true,
-      "MaxCmdOps": 128,
-      "MaxCmdValueLen": 256,
+      "MaxCmdOps": 12800,
       "ProfilesDir": "./res/profiles",
       "DevicesDir": "./res/devices",
       "Discovery": {
